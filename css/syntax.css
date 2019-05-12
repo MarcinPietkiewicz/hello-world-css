@@ -1,11 +1,7 @@
-#header p{
-    text-transform:capitalize;
-}
-
-body{
-    text-transform: uppercase;
-}
-
-body > p{
-    text-transform: none;
+.box{
+    margin: 30px;
+    padding:30px;
+    border: 1px solid #000;
+    width:400px;
+    height:200px;
 }

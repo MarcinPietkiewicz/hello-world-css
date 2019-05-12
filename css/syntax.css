@@ -23,12 +23,10 @@ body
 #main-content .static-width{
     width: 300px;
     height: 300px;
-    background-color: #606060;
-    background-image: url(http://placekitten.com/g/250/250);
-    background-repeat: no-repeat;
-    background-position: 50% 20%;
+    background: gray url(http://placekitten.com/g/250/250) no-repeat top center;
     background-size: 200%;
 }
+/*http://placekitten.com/g/250/250*/
 
 .percentage-width{
     width:70%;

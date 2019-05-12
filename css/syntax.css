@@ -13,16 +13,38 @@ body
 /* start of ex */
 /***************/
 
-
-
-#banner{
-    background-color: #606060;
-    width: 100%;
+#circle{
+    width: 400px;
     height: 400px;
-    background-image: url(https://farmerolaf.com/fo.png), url(http://placekitten.com/g/588/197);
-    background-repeat: no-repeat;
-    background-position: 10% center, top left;
-    background-size: 400px, 150%;
-
+    position: absolute;
+    background: rgb(200,200,100);
+    border-radius: 200px;
+    top: 50px;
+    left: 150px;
+    opacity: 1;
+    text-align:center;
 }
 
+#circle-2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgba(200,100,200, 0.3);
+    border-radius: 200px;
+    top: 250px;
+    left: 250px;
+    text-align:center;
+}
+
+
+#circle-3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(100,200,200);
+    border-radius: 200px;
+    top: 50px;
+    left: 350px;
+    opacity:0.7;
+    text-align:center;
+}

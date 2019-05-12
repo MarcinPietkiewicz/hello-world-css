@@ -20,10 +20,14 @@ body
     padding:10px;
 }
 
-.static-width{
+#main-content .static-width{
     width: 300px;
-    height: 100px;
-    border-radius:20px 10px 5px 1px;
+    height: 300px;
+    background-color: #606060;
+    background-image: url(http://placekitten.com/g/250/250);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: 200%;
 }
 
 .percentage-width{

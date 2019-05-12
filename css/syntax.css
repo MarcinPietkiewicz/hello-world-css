@@ -1,12 +1,7 @@
-span[class~="deck"]{
-    color:orange;
+a:hover{
+color:yellow;
 }
 
-div[id]{
-    color:green;
+#main-content:hover{
+    background-color: aqua;
 }
-
-a[title="Search engine"]{
-    color: red;
-}
-

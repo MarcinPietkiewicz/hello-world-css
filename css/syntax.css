@@ -10,23 +10,30 @@ body
     height:100%;
     padding:2%;
 }
+/* start of ex */
+/***************/
+
 
 #main-content div{
     background-color: #ccc;
     margin: 0 0 20px 0;
+    padding:10px;
 }
 
 .static-width{
     width: 300px;
     height: 100px;
+    border-radius:20px 10px 5px 1px;
 }
 
 .percentage-width{
     width:70%;
-    height: 50px;
+
 }
 
 .inline-block{
-    width:40%;
-    display:inline-block;
+width:100px;
+height:100px;
+border-radius:80px;
+border: 1px solid blue;
 }

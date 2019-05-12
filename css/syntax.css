@@ -1,24 +1,20 @@
-/* contact styling */
- p:first-of-type{
-    font-weight:bold;
+/* articles styling */
+
+article:nth-of-type(2n+1) {
+background:lightgray;
 }
 
-article p:last-of-type{
-    color: red;
-}
+
+
+
+
 
 /* list styling */
 
 li:nth-child(1), li:nth-child(7){
     font-weight:bold;
-
-
 }
 
-li:nth-child(even){
-    background-color: lightgray;
-}
-
-li:nth-child(odd){
-    background-color: lightcyan;
+li:nth-child(3n+1){
+    color:lightsalmon;
 }

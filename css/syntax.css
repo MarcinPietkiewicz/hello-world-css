@@ -11,10 +11,10 @@ background:lightgray;
 
 /* list styling */
 
-li:nth-child(1), li:nth-child(7){
-    font-weight:bold;
+article.featured-content{
+background:lightcyan;
 }
 
-li:nth-child(3n+1){
-    color:lightsalmon;
+div.featured-content{
+    background:lightgoldenrodyellow;
 }

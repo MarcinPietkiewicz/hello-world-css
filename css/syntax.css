@@ -1,0 +1,12 @@
+span[class~="deck"]{
+    color:orange;
+}
+
+div[id]{
+    color:green;
+}
+
+a[title="Search engine"]{
+    color: red;
+}
+
